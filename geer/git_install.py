@@ -5,10 +5,9 @@ def git_repos():
   os.system("""
   mkdir github
   cd github
-  git clone https://github.com/t3l3machus/hoaxshell
-  cd ./hoaxshell
-  sudo pip3 install -r requirements.txt
-  chmod +x hoaxshell.py
+  git clone https://github.com/t3l3machus/Villain
+  cd ./Villain
+  pip3 install -r requirements.txt
   git clone https://github.com/JohnHammond/msdt-follina
   git clone https://github.com/paranoidninja/Brute-Ratel-C4-Community-Kit
   git clone https://github.com/H1R0GH057/Anonymous
